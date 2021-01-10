@@ -2,7 +2,7 @@
 # Testing playbook
 
 - name: Testing playbook
-  host: localhost
+  hosts: localhost
   tasks:
   - copy: 
       src: "/etc/hosts"
