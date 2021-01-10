@@ -6,6 +6,6 @@
   tasks:
   - copy: 
       src: "/etc/hosts"
-      dest: "/home/dummy"
+      dest: "/home/dummy/"
       owner: dummy
       group: dummy
