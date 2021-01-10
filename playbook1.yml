@@ -1,3 +1,11 @@
 ---
 # Testing playbook
 
+- name: Testing playbook
+  host: localhost
+  tasks:
+  - copy: 
+      src: "/etc/hosts"
+      dest: "/home/dummy"
+      owner: dummy
+      group: dummy
